@@ -6,27 +6,48 @@
     <title>Countdown timer</title>
     <link rel="stylesheet" href="css/common.css" />
   </head>
+
   <body>
     <p><a href="index.html">Go back</a></p>
 
     <input type="text" id="datetime-picker" />
     <button type="button" data-start>Start</button>
 
-    <div class="timer">
+    <div class="timer" style="display: flex; justify-content: center; gap: 8px">
       <div class="field">
-        <span class="value" data-days>00</span>
+        <span
+          class="value"
+          data-days
+          style="font-size: 30px; color: rgb(255, 0, 38)"
+          >00</span
+        >
         <span class="label">Days</span>
       </div>
       <div class="field">
-        <span class="value" data-hours>00</span>
+        <span
+          class="value"
+          data-hours
+          style="font-size: 30px; color: rgb(212, 255, 0)"
+          >00</span
+        >
         <span class="label">Hours</span>
       </div>
       <div class="field">
-        <span class="value" data-minutes>00</span>
+        <span
+          class="value"
+          data-minutes
+          style="font-size: 30px; color: rgb(21, 255, 0)"
+          >00</span
+        >
         <span class="label">Minutes</span>
       </div>
       <div class="field">
-        <span class="value" data-seconds>00</span>
+        <span
+          class="value"
+          data-seconds
+          style="font-size: 30px; color: rgb(17, 0, 255)"
+          >00</span
+        >
         <span class="label">Seconds</span>
       </div>
     </div>
